@@ -28,3 +28,4 @@ st.write("I just gave a " + noun + " twenty " + adjective + " dollars and he " +
 pressed = st.button("Press me!")
 if pressed:
     st.write("Why did you do that?")
+st.write(pressed.as_integer_ratio())
